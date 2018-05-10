@@ -1,0 +1,160 @@
+body * {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+.wrapper {
+    width: 960px;
+    height: 1000px;
+    background-color: rgb(101, 74, 126)
+}
+
+.header {
+    width: 938px;
+    height: 30px;
+    padding: 15px;
+}
+
+.header h2 {
+    display: inline-block;
+    margin-right: 480px;
+}
+
+.header h3 {
+    display: inline-block;
+}
+
+.main {
+    height: 870px;
+    width: 929px;
+    padding: 20px 20px;
+    background: radial-gradient(rgb(68, 10, 68), rgb(151, 111, 151),rgb(68, 2, 68));
+}
+
+.main img {
+    width: 410px;
+    height: auto;
+    margin-bottom: 20px;
+    border: 5px solid rgb(172, 143, 172);
+}
+
+.main .headbox {
+    height: 280px;
+    width: 500px;
+    background: linear-gradient(to bottom right,  rgb(255, 255, 255), rgb(187, 164, 187));
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main .headbox h2 {
+    padding: 5px 10px;
+    background: linear-gradient(rgb(230, 207, 230), rgb(151, 141, 151),rgb(192, 180, 192));
+    color: white;
+}
+
+.main p {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.main a {
+    padding-left: 10px;
+}
+
+.main .projects {
+    height: 570px;
+    width: 295px;
+    display: inline-block;
+    background-color: lightgray;
+    vertical-align: top;
+    background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(233, 194, 233));
+}
+
+.main .projects .spacing {
+    margin-right: 15px;
+}
+
+.projects img,
+.projects ul {
+    width: 293px;
+    margin: 0;
+}
+
+.projects h2 {
+    width: 273px;
+    padding: 5px 10px;
+    background: linear-gradient(rgb(230, 207, 230), rgb(151, 141, 151),rgb(192, 180, 192));
+    color: white;
+}
+
+.projects img {
+    border: none;
+}
+
+.project p {
+    width: 278px;
+}
+
+.tech_images {
+    padding: 15px 0px 0px 12px;
+}
+
+.tech_images li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tech_images img {
+    height: 40px;
+    width: 40px;
+}
+
+.projects button {
+    background-color: green;
+	color:white;
+	border:solid 1px black;
+	border-radius: 3px;
+	padding:5px;
+	margin: 10px 100px;
+	font-weight: 900;
+}
+
+.footer {
+    height: 50px;
+    width: 968px;
+}
+
+.footer p {
+    margin: auto;
+    width: 240px;
+}
+
+.footer ul {
+    width: 380px;
+    margin: auto;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer img {
+    width: 25px;
+    height: auto;
+    margin: auto;
+}
+
+.footer, .header {
+    background-color: rgb(233, 233, 233);
+}
+
+
+
+
+
+
+
+
+
+/* .btn { margin: auto; width: 40%; } */
